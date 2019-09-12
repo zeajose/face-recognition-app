@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "justadudewhohacks",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "name": "example-browser",
+  "version": "1.0.0",
+  "description": "This is an app for face-detection",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [
+    "example",
+    "heroku"
+  ]
+}
