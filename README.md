@@ -1,3 +1,5 @@
+
+
 # face-api.js
 
 [![Build Status](https://travis-ci.org/justadudewhohacks/face-api.js.svg?branch=master)](https://travis-ci.org/justadudewhohacks/face-api.js)
@@ -82,17 +84,19 @@ cd face-api.js/examples/examples-nodejs
 npm i
 ```
 
+> **Note:** Ensure the library is built first by running `npm run build` from the repository root, as the examples rely on the compiled output.
+
 Now run one of the examples using ts-node:
 
 ``` bash
-ts-node faceDetection.ts
+ts-node ageAndGenderRecognition.ts
 ```
 
 Or simply compile and run them with node:
 
 ``` bash
-tsc faceDetection.ts
-node faceDetection.js
+tsc ageAndGenderRecognition.ts
+node ageAndGenderRecognition.js
 ```
 
 <a name="face-api.js-for-the-browser"></a>
